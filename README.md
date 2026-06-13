@@ -52,6 +52,10 @@ Detailed project information can be found in:
 
 ![Use Case Diagram](use_case_diagram.png)
 
+### architecture
+
+![architecture](architecture.png)
+
 ## Repository Structure
 
 ```text
