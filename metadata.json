@@ -1,0 +1,6 @@
+{
+  "name": "RFID Smart Asset Tracker",
+  "description": "IoT-Enabled RFID-Based Smart Asset Tracking System for monitoring, managing, and tracking valuable assets using simulated RFID scans and live IoT movement timelines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

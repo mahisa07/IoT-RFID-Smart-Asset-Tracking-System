@@ -1,0 +1,226 @@
+{
+  "users": [
+    {
+      "id": "usr-01",
+      "username": "admin",
+      "passwordHash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "salt": "f3b392e20b3df104",
+      "name": "Mahisa",
+      "email": "mahisa@smarttrack.edu",
+      "phone": "8072105898",
+      "role": "Admin",
+      "profilePicture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150"
+    },
+    {
+      "id": "usr-02",
+      "username": "manager",
+      "passwordHash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "salt": "f3b392e20b3df104",
+      "name": "Suresh Kumar",
+      "email": "suresh.k@smarttrack.org",
+      "phone": "+91 98765 43210",
+      "role": "Manager",
+      "profilePicture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150"
+    },
+    {
+      "id": "usr-03",
+      "username": "operator",
+      "passwordHash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "salt": "f3b392e20b3df104",
+      "name": "Meena Sundaram",
+      "email": "meena.s@smarttrack.org",
+      "phone": "+91 99445 56789",
+      "role": "Operator",
+      "profilePicture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150"
+    }
+  ],
+  "assets": [
+    {
+      "id": "AST-1001",
+      "rfidTag": "RFID-89A23F",
+      "name": "High-Performance Blade Server Node 1",
+      "category": "IT Equipment",
+      "department": "Computer Science Dept",
+      "purchaseDate": "2025-01-15",
+      "warrantyDate": "2028-01-15",
+      "assignedEmployee": "Dr. Ramesh Nair",
+      "currentLocation": "Main Data Center - Rack 4",
+      "status": "Active",
+      "description": "Enterprise virtualization node hosting student research and development VMs.",
+      "qrCode": "AST-1001:RFID-89A23F:Blade Server:Active",
+      "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400",
+      "lastUpdated": "2026-07-13T05:22:00.000Z"
+    },
+    {
+      "id": "AST-1002",
+      "rfidTag": "RFID-32C55E",
+      "name": "GE Healthcare ECG Monitor System",
+      "category": "Medical Devices",
+      "department": "Emergency Medicine",
+      "purchaseDate": "2025-05-10",
+      "warrantyDate": "2027-05-10",
+      "assignedEmployee": "Nurse Clara Thomas",
+      "currentLocation": "ICU Ward B - Room 104",
+      "status": "Active",
+      "description": "Portable bedside cardiac arrhythmia analyzer and multi-lead tracking setup.",
+      "qrCode": "AST-1002:RFID-32C55E:ECG Monitor:Active",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400",
+      "lastUpdated": "2026-07-13T06:10:00.000Z"
+    },
+    {
+      "id": "AST-1003",
+      "rfidTag": "RFID-10F77B",
+      "name": "Toyota Electric High-Reach Forklift",
+      "category": "Warehouse Machinery",
+      "department": "Logistics & Cargo Bay 3",
+      "purchaseDate": "2024-03-20",
+      "warrantyDate": "2027-03-20",
+      "assignedEmployee": "Murugan Velu",
+      "currentLocation": "Loading Dock East Wing",
+      "status": "Active",
+      "description": "Class II electric warehouse narrow-aisle lifting system with side-shifter.",
+      "qrCode": "AST-1003:RFID-10F77B:Electric Forklift:Active",
+      "imageUrl": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400",
+      "lastUpdated": "2026-07-12T14:35:00.000Z"
+    },
+    {
+      "id": "AST-1004",
+      "rfidTag": "RFID-55B11C",
+      "name": "Epson 4K Laser Lecture Projector",
+      "category": "Classroom Systems",
+      "department": "Mechanical Engineering",
+      "purchaseDate": "2025-08-01",
+      "warrantyDate": "2027-08-01",
+      "assignedEmployee": "Prof. S. Jagadeesan",
+      "currentLocation": "Main Lecture Auditorium B",
+      "status": "Maintenance",
+      "description": "High-brightness laser projector requiring periodic cooling fan maintenance.",
+      "qrCode": "AST-1004:RFID-55B11C:Epson Projector:Maintenance",
+      "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=400",
+      "lastUpdated": "2026-07-13T04:00:00.000Z"
+    },
+    {
+      "id": "AST-1005",
+      "rfidTag": "RFID-77C88D",
+      "name": "MacBook Pro 16 M3 Max Studio",
+      "category": "IT Equipment",
+      "department": "CAD Design Lab",
+      "purchaseDate": "2025-11-12",
+      "warrantyDate": "2026-11-12",
+      "assignedEmployee": "Anitha Krishnan",
+      "currentLocation": "Room 305 - Lab Station 4",
+      "status": "Lost",
+      "description": "High-end design laptop assigned for aeronautical computational fluid dynamics.",
+      "qrCode": "AST-1005:RFID-77C88D:MacBook Pro:Lost",
+      "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+      "lastUpdated": "2026-07-10T11:45:00.000Z"
+    },
+    {
+      "id": "AST-1006",
+      "rfidTag": "RFID-22E44D",
+      "name": "Otometrics Audiometer Calibrator",
+      "category": "Medical Devices",
+      "department": "Audiology Clinic",
+      "purchaseDate": "2024-09-05",
+      "warrantyDate": "2026-09-05",
+      "assignedEmployee": "Dr. Karthik Raja",
+      "currentLocation": "Hearing Assessment Suite 2",
+      "status": "Available",
+      "description": "Clinical acoustic level calibrator with sound pressure coupler system.",
+      "qrCode": "AST-1006:RFID-22E44D:Audiometer:Available",
+      "imageUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=400",
+      "lastUpdated": "2026-07-13T02:15:00.000Z"
+    }
+  ],
+  "scan_history": [
+    {
+      "id": "scn-01",
+      "rfidTag": "RFID-89A23F",
+      "assetName": "High-Performance Blade Server Node 1",
+      "date": "2026-07-13",
+      "time": "05:22 AM",
+      "location": "Main Data Center - Rack 4",
+      "status": "Active",
+      "employee": "Dr. Ramesh Nair",
+      "timestamp": 1783920120000
+    },
+    {
+      "id": "scn-02",
+      "rfidTag": "RFID-32C55E",
+      "assetName": "GE Healthcare ECG Monitor System",
+      "date": "2026-07-13",
+      "time": "06:10 AM",
+      "location": "ICU Ward B - Room 104",
+      "status": "Active",
+      "employee": "Nurse Clara Thomas",
+      "timestamp": 1783923000000
+    },
+    {
+      "id": "scn-03",
+      "rfidTag": "RFID-55B11C",
+      "assetName": "Epson 4K Laser Lecture Projector",
+      "date": "2026-07-13",
+      "time": "04:00 AM",
+      "location": "Technical Support Lab 1",
+      "status": "Maintenance",
+      "employee": "Prof. S. Jagadeesan",
+      "timestamp": 1783915200000
+    },
+    {
+      "id": "scn-04",
+      "rfidTag": "RFID-10F77B",
+      "assetName": "Toyota Electric High-Reach Forklift",
+      "date": "2026-07-12",
+      "time": "02:35 PM",
+      "location": "Warehouse Main Gate",
+      "status": "Active",
+      "employee": "Murugan Velu",
+      "timestamp": 1783866900000
+    },
+    {
+      "id": "scn-05",
+      "rfidTag": "RFID-77C88D",
+      "assetName": "MacBook Pro 16 M3 Max Studio",
+      "date": "2026-07-10",
+      "time": "11:45 AM",
+      "location": "Campus Main Entrance Gate",
+      "status": "Lost",
+      "employee": "Anitha Krishnan",
+      "timestamp": 1783683900000
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-01",
+      "title": "RFID Scan Registered",
+      "message": "GE Healthcare ECG Monitor System was scanned at ICU Ward B - Room 104 by Nurse Clara Thomas.",
+      "type": "success",
+      "timestamp": "2026-07-13T06:10:00.000Z",
+      "read": false
+    },
+    {
+      "id": "notif-02",
+      "title": "Asset Set to Maintenance",
+      "message": "Epson 4K Laser Lecture Projector status changed to Maintenance for scheduling calibration.",
+      "type": "warning",
+      "timestamp": "2026-07-13T04:00:00.000Z",
+      "read": false
+    },
+    {
+      "id": "notif-03",
+      "title": "Asset Marked Lost",
+      "message": "CRITICAL ALERT: MacBook Pro 16 M3 Max Studio has been marked LOST after missing security gate checks.",
+      "type": "danger",
+      "timestamp": "2026-07-10T11:45:00.000Z",
+      "read": false
+    },
+    {
+      "id": "notif-04",
+      "title": "New Asset Enrolled",
+      "message": "Toyota Electric High-Reach Forklift enrolled successfully with RFID-10F77B.",
+      "type": "info",
+      "timestamp": "2026-07-12T10:00:00.000Z",
+      "read": true
+    }
+  ]
+}
