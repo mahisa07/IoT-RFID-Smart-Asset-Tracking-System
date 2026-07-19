@@ -12,6 +12,12 @@ The system enables administrators to monitor assets in real time, manage invento
 
 ---
 
+# Live Demo
+
+**Click here to use the application:**
+
+https://io-t-rfid-smart-asset-tracking-syst.vercel.app
+
 # Problem Statement
 
 Traditional asset management methods are often manual, time-consuming, and prone to errors. Organizations face challenges such as:
