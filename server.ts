@@ -5,7 +5,7 @@ import crypto from 'crypto';
 import { createServer as createViteServer } from 'vite';
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT||3000;
 const DB_PATH = path.join(process.cwd(), 'db.json');
 const JWT_SECRET = 'iot-rfid-smart-asset-tracking-secret-key-2026';
 

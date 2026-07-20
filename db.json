@@ -130,9 +130,90 @@
       "qrCode": "AST-1006:RFID-22E44D:Audiometer:Available",
       "imageUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=400",
       "lastUpdated": "2026-07-13T02:15:00.000Z"
+    },
+    {
+      "id": "AST-4335",
+      "rfidTag": "RFID-28134D",
+      "name": "laptop",
+      "category": "IT Equipment",
+      "department": "Computer Science Dept",
+      "purchaseDate": "2026-07-19",
+      "warrantyDate": "2028-07-19",
+      "assignedEmployee": "Unassigned",
+      "currentLocation": "Main Warehouse A",
+      "status": "Active",
+      "description": "",
+      "qrCode": "AST-4335:RFID-28134D:laptop:Active",
+      "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400",
+      "lastUpdated": "2026-07-19T07:00:54.440Z"
+    },
+    {
+      "id": "AST-1311",
+      "rfidTag": "RFID-4F8773",
+      "name": "printer",
+      "category": "IT Equipment",
+      "department": "Computer Science Dept",
+      "purchaseDate": "2026-07-19",
+      "warrantyDate": "2028-07-19",
+      "assignedEmployee": "Unassigned",
+      "currentLocation": "Main Warehouse A",
+      "status": "Active",
+      "description": "",
+      "qrCode": "AST-1311:RFID-4F8773:printer:Active",
+      "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400",
+      "lastUpdated": "2026-07-19T07:25:32.189Z"
+    },
+    {
+      "id": "AST-5894",
+      "rfidTag": "RFID-D58B10",
+      "name": "cpu",
+      "category": "IT Equipment",
+      "department": "Computer Science Dept",
+      "purchaseDate": "2026-07-19",
+      "warrantyDate": "2028-07-19",
+      "assignedEmployee": "Unassigned",
+      "currentLocation": "Main Warehouse A",
+      "status": "Active",
+      "description": "",
+      "qrCode": "AST-5894:RFID-D58B10:cpu:Active",
+      "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400",
+      "lastUpdated": "2026-07-19T07:36:34.807Z"
     }
   ],
   "scan_history": [
+    {
+      "id": "scn-1784446594807",
+      "rfidTag": "RFID-D58B10",
+      "assetName": "cpu",
+      "date": "2026-07-19",
+      "time": "01:06 PM",
+      "location": "Main Warehouse A",
+      "status": "Active",
+      "employee": "Mahisa",
+      "timestamp": 1784446594906
+    },
+    {
+      "id": "scn-1784445932189",
+      "rfidTag": "RFID-4F8773",
+      "assetName": "printer",
+      "date": "2026-07-19",
+      "time": "12:55 PM",
+      "location": "Main Warehouse A",
+      "status": "Active",
+      "employee": "Mahisa",
+      "timestamp": 1784445932205
+    },
+    {
+      "id": "scn-1784444454440",
+      "rfidTag": "RFID-28134D",
+      "assetName": "laptop",
+      "date": "2026-07-19",
+      "time": "12:30 PM",
+      "location": "Main Warehouse A",
+      "status": "Active",
+      "employee": "Mahisa",
+      "timestamp": 1784444454538
+    },
     {
       "id": "scn-01",
       "rfidTag": "RFID-89A23F",
@@ -190,6 +271,30 @@
     }
   ],
   "notifications": [
+    {
+      "id": "notif-1784446594807",
+      "title": "Asset Added Successfully",
+      "message": "Asset cpu (AST-5894) has been enrolled in Computer Science Dept with tag RFID-D58B10.",
+      "type": "success",
+      "timestamp": "2026-07-19T07:36:34.807Z",
+      "read": false
+    },
+    {
+      "id": "notif-1784445932189",
+      "title": "Asset Added Successfully",
+      "message": "Asset printer (AST-1311) has been enrolled in Computer Science Dept with tag RFID-4F8773.",
+      "type": "success",
+      "timestamp": "2026-07-19T07:25:32.189Z",
+      "read": false
+    },
+    {
+      "id": "notif-1784444454440",
+      "title": "Asset Added Successfully",
+      "message": "Asset laptop (AST-4335) has been enrolled in Computer Science Dept with tag RFID-28134D.",
+      "type": "success",
+      "timestamp": "2026-07-19T07:00:54.440Z",
+      "read": false
+    },
     {
       "id": "notif-01",
       "title": "RFID Scan Registered",

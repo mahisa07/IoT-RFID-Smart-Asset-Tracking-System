@@ -2,7 +2,7 @@
  * Client-side API Service for IoT RFID Asset Tracker
  */
 
-const API_BASE = '/api';
+const API_URL = "https://iot-rfid-smart-asset-tracking-system-production.up.railway.app";
 
 export const getAuthToken = (): string | null => {
   return localStorage.getItem('rfid_session_token');
@@ -23,7 +23,7 @@ async function request(endpoint: string, options: RequestInit = {}) {
     ...(token ? { 'Authorization': `Bearer ${token}` } : {})
   };
 
-  const response = await fetch(`${API_BASE}${endpoint}`, {
+  const response = await fetch(`https://iot-rfid-smart-asset-tracking-system-production.up.railway.app${endpoint}`, {
     ...options,
     headers: {
       ...headers,
