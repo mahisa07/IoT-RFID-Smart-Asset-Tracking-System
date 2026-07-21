@@ -16,7 +16,7 @@ The system enables administrators to monitor assets in real time, manage invento
 
 **Click here to use the application:**
 
-https://io-t-rfid-smart-asset-tracking-syst.vercel.app
+https://iot-rfid-smart-asset-tracking-system.onrender.com
 
 # Problem Statement
 
