@@ -2,8 +2,7 @@
  * Client-side API Service for IoT RFID Asset Tracker
  */
 
-const API_URL = "https://iot-rfid-smart-asset-tracking-system-production.up.railway.app/api";
-
+const API_URL = "https://iot-rfid-smart-asset-tracking-system.onrender.com/api";
 export const getAuthToken = (): string | null => {
   return localStorage.getItem('rfid_session_token');
 };
